@@ -1,12 +1,19 @@
 import React, {Component} from 'react'
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
-import { getMovies } from '../../store/actions/index';
+import { getMovies, openModal} from '../store/actions/index';
+import MovieList from './MovieList'
+import MovieInfo from './MovieInfo'
 
 class MovieInput extends Component {
   state = {
-    movieName: ''
+    movieName: '',
+    modalVisible: false
   };
+
+  setModalVisible = (visible) => {
+    this.setState({modalVisible: visible});
+  }
 
   movieNameChangedHandler = val => {
     this.setState({
@@ -19,6 +26,7 @@ class MovieInput extends Component {
   };
 
   render() {
+
     return (
       <View>
         <View style={styles.inputContainer}>
@@ -36,8 +44,9 @@ class MovieInput extends Component {
           />
         </View>
         <View style={styles.resultContainer}>
-          <MovieList movies={this.props.movies} />
+          {this.props.movies ? <MovieList setModalStatus={this.setModalVisible} visible={this.state.modalVisible} movies={this.props.movies} />: <View style={styles.noResText}><Text style={{ fontWeight: 'bold',}}>No matches, please try again.</Text></View>}
         </View>
+
       </View>
     );
   }
@@ -59,18 +68,23 @@ const styles = StyleSheet.create({
   },
   searchButton: {
     width: '30%'
+  },
+  noResText: {
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
 
 const mapDispatchToProps = dispatch => {
   return {
-    fetchMovies: query => dispatch(getMovies(query))
+    fetchMovies: query => dispatch(getMovies(query)),
   };
 };
 
 const mapStateToProps = state => {
   return {
-    movies: state.movies.currentMovies
+    movies: state.movies.currentMovies,
+    currentModalItem: state.modal.selectedItem
   };
 };
 

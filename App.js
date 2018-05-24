@@ -17,7 +17,7 @@ const RootNavigator = TabNavigator({
   Movies: {
     screen: MoviesScreen
   }
-})
+}, {tabBarOptions:{style:{backgroundColor: 'purple'}}})
 
 export default class App extends Component {
   render() {

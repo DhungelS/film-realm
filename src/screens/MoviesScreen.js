@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import MovieInput from '../components/MovieInput'
 
 class MoviesScreen extends Component {
   render() {
     return (
-      <View style={styles.movieContainer}>
-        <Text>This is the movie screen </Text>
+      <View>
+        <MovieInput/>
       </View>
     );
   }

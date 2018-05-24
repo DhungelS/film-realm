@@ -1,9 +1,11 @@
 import {createStore, combineReducers, compose, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import moviesApiReducer  from './reducers/moviesReducer'
+import modalReducer from './reducers/modal'
 
 const rootReducer = combineReducers({
-  movies: moviesApiReducer
+  movies: moviesApiReducer,
+  modal: modalReducer
 });
 
 const middlewares =[thunk]

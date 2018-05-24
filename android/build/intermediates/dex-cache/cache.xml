@@ -66,24 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_2a67ac61e9c34fbb9cfbec8a06bd57ecf85edb6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_802e15cefca7a5440371af6780eb53b0ac41d4f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -111,21 +93,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Saugat\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_31dc90a79284d7af04ad03c09d21f8ad6d584fdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
         <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_6f9e0bd9c631b2596cf7023569090d221c72c3a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_b31e7bf6133d92056a2a4b7047908ad789d3c0a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_2a67ac61e9c34fbb9cfbec8a06bd57ecf85edb6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_802e15cefca7a5440371af6780eb53b0ac41d4f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saugat\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_31dc90a79284d7af04ad03c09d21f8ad6d584fdf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -153,15 +162,6 @@
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_8e2de24599a6bd69cd1a73ce23dd87a1587fac97.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\Users\Saugat\Desktop\react-native\film-realm\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_b31e7bf6133d92056a2a4b7047908ad789d3c0a0.jar" />
     </item>
     <item
         is-multidex="false"

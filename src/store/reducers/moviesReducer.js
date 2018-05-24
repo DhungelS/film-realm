@@ -2,7 +2,7 @@ import {
   FETCH_MOVIE_DATA_REQUEST,
   FETCH_MOVIE_DATA_SUCCESS,
   FETCH_MOVIE_DATA_ERROR
-} from '../actions/actionTypes';
+} from '../actions/actionType';
 
 const initialState = {
   currentMovies: [],
